@@ -9,7 +9,7 @@ const lineImage=[
 gsap.registerPlugin(ScrollTrigger);
 gsap.to(".home-sun",{
   scrollTrigger:{
-    trigger:".navbar",
+    trigger:".home-container",
     start:"top top",
     endTrigger:".life-time-wrapper",
     end:"bottom bottom",

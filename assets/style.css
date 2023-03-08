@@ -11,7 +11,7 @@ body {
   background-color: #FFFBF5;
   text-align: center;
 }
-.navbar{
+/* .navbar{
   z-index: 3 !important;
 }
 .nav-background{
@@ -38,7 +38,7 @@ body {
   border: 1px solid #000;
   border-radius: 999em;
  cursor: pointer;
-}
+} */
 .sun-space{
   position: relative;
   height: 100%;
@@ -224,7 +224,7 @@ body {
   z-index: 1;
   width: 60%;
   height: 100%;
-  /* background-image: -webkit-gradient(linear, right top, left top, from(hsla(0, 0%, 85.3%, 0)), to(rgba(21, 21, 26, 0.78))); */
+  background-image: -webkit-gradient(linear, right top, left top, from(hsla(0, 0%, 85.3%, 0)), to(rgba(21, 21, 26, 0.78)));
   background-image: linear-gradient(270deg, hsla(0, 0%, 85.3%, 0), rgba(21, 21, 26, 0.78));
 }
 .gallery-c4-img{
@@ -301,16 +301,21 @@ cursor: pointer;
 font-size: 2.21em;
 line-height: 1.2em;
 font-weight: 600;
+text-align: center;
+position: relative;
 z-index: 2;
 }
 .power-text2{
+position: relative;
 margin-bottom: 0px;
 font-size: 5.9rem;
 line-height: 1.0;
 font-weight: 600;
 z-index: 2;
+text-align: center;
 }
-.power-text3{
+.power-text3{ 
+position: relative;
 font-size: 2.19em;
 line-height: 1.2em; 
 text-align: center;
@@ -323,6 +328,7 @@ z-index: 2;
 color: #747474; 
 margin-bottom: 2.5em;
 z-index: 2;
+text-align: center;
 }
 .reserve-btn1{
 background-color: transparent;
@@ -353,6 +359,7 @@ padding-top: 5em;
 display: flex;
 flex-direction: column;
 background-image: linear-gradient(#F8F0E8, #FFFBF5);
+text-align: center;
 }
 .heng-pro-img{
 height: 70em;

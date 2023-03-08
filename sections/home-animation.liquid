@@ -6,7 +6,8 @@
         <div class="animation-block">
           <div class="top-wrapper">
             <h1 class="number">01</h1>
-            <img src="{{ 'heng-balance-lamp.png'| asset_url}}" class="image">
+            {% comment %} <img src="{{ 'heng-balance-lamp.png'| asset_url}}" class="image"> {% endcomment %}
+            <img src={{ section.settings.image_one | img_tag }} class="image">
             <div class="title-group">
               <h1 class="title">Heng Balance Lamp</h1>
               <h2 class="sub-title">
@@ -99,3 +100,17 @@
   <button class="explore2 explore-btn">EXPLORE</button>
   <button class="explore3 explore-btn">EXPLORE</button>
 </div>
+
+{% schema %}
+  {
+    "name": "home-animation",
+    "settings": [
+      {
+        "type": "image_picker",
+        "id": "image_one",
+        "label": "image 1",
+        "default": "true"
+      }
+    ]
+  }
+{% endschema %}
