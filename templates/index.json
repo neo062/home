@@ -1,7 +1,11 @@
 {
+  "name":"Template index",
   "sections": {
     "hero-animation":{
       "type": "hero-animation"
+    },
+    "video-section":{
+      "type":"video-section"
     },
     "home-animation":{
       "type": "home-animation"
@@ -12,5 +16,5 @@
     "home-productgallery":{
       "type":"home-productgallery"
     }
-  },"order": ["hero-animation","home-animation","gallery-section","home-productgallery"]
+  },"order": ["hero-animation","video-section","home-animation","gallery-section","home-productgallery"]
 }
