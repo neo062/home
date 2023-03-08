@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
   "name":"Template index",
   "sections": {
     "hero-animation":{
@@ -18,3 +19,12 @@
     }
   },"order": ["hero-animation","video-section","home-animation","gallery-section","home-productgallery"]
 }
+=======
+    "sections": {
+      "template":{
+        "type":"main-home"
+      }
+    },
+    "order": ["template"]
+  }
+>>>>>>> c549918a9ed77e437d75e656635ec9f778ba606b

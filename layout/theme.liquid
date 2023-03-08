@@ -5,6 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="theme-color" content="">
+<<<<<<< HEAD
+=======
+    <link rel="canonical" href="{{ canonical_url }}">
+    <link
+      rel="preconnect"
+      href="https://cdn.shopify.com"
+      crossorigin>
+>>>>>>> c549918a9ed77e437d75e656635ec9f778ba606b
 
     <link rel="canonical" href="{{ canonical_url }}">
     <link
@@ -35,7 +43,42 @@
         rel="preconnect"
         href="https://fonts.shopifycdn.com"
         crossorigin>
+<<<<<<< HEAD
+=======
+
+>>>>>>> c549918a9ed77e437d75e656635ec9f778ba606b
     {%- endunless -%}
+
+
+
+    {% comment %} <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" />
+    <script src="{{ https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js }}"></script>
+    <script src="{{ https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js }}"></script>
+
+    <script
+    src="{{ https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js }}"
+    integrity="sha512-VEBjfxWUOyzl0bAwh4gdLEaQyDYPvLrZql3pw1ifgb6fhEvZl9iDDehwHZ+dsMzA0Jfww8Xt7COSZuJ/slxc4Q=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"></script>
+    <script
+    src="{{ https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/ScrollTrigger.min.js }}"
+    integrity="sha512-v8B8T8l8JiiJRGomPd2k+bPS98RWBLGChFMJbK1hmHiDHYq0EjdQl20LyWeIs+MGRLTWBycJGEGAjKkEtd7w5Q=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"></script> {% endcomment %}
+
+
+    {{ '//code.jquery.com/jquery-3.5.1.js ' | script_tag }}
+    <link
+      rel="stylesheet"
+      href="{{ '//maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css' | asset_url }}"
+      media="print"
+      onload="this.media='all'">
+    {{ '//cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js' | script_tag }}
+    {{ '//maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js' | script_tag }}
+    {{ '//cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js ' | script_tag }}
+    {{ '//cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/ScrollTrigger.min.js' | script_tag }}
+
+
 
     <title>
       {{ page_title }}
