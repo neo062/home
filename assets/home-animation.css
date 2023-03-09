@@ -46,11 +46,11 @@ body {
   width: 100%;
 }
 .home-sun{
-  /* display: block !important; */
+  display: block !important;
   height: 420px;
   width: 320px;
   position: absolute;
-  top: -200px;
+  top: -260px;
   left: -3em;
   z-index: 1;
   background-image: radial-gradient(circle closest-side at 50% 50%, #fff6de 7%, #ffde89 65%, rgba(255, 252, 247, 0));
@@ -373,7 +373,7 @@ flex-direction: column;
 background-image: linear-gradient(#F8F0E8, #FFFBF5);
 }
 .heng-pro-img{
-height: 70em;
+height: auto;
 position: absolute;
 top: 0px;
 bottom: 0px;
@@ -387,7 +387,7 @@ margin-bottom: 5em;
 }
 .pro-lamp-wrapper{
 position: relative;
-height: 70em;
+height: 115rem;
 margin-bottom: 5em;
 }
 .explore-btn{
@@ -407,18 +407,18 @@ cursor: pointer;
 
 .explore1 {
 position: absolute;
-top: 15em;
-left: 10em;
+top: 28rem;
+left: 20rem;
 }
 .explore2{
 position: absolute;
-right: 17.5em;
-top: 32.5em;
+right: 29.5rem;
+top: 59.5rem;
 }
 .explore3{
 position: absolute;
-bottom: 5.5em;
- left: 10em
+bottom: 10.5rem;
+ left: 20rem
 
 }
 
